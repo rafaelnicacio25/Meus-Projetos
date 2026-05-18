@@ -1,4 +1,4 @@
-# Resumo do Repositório: Projetos C e C++
+# Repositório: Projetos C e C++
 
 O repositório funciona como um portfólio e histórico de evolução nos estudos de programação, reunindo códigos desenvolvidos em **C** e **C++**. O objetivo central é a consolidação da lógica de programação e a aplicação de conceitos fundamentais da ciência da computação por meio da prática contínua.
 
