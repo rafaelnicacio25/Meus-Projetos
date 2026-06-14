@@ -1,32 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Rafael Nicacio</title>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
-    <style>
-        body {
-            box-sizing: border-box;
-            min-width: 200px;
-            max-width: 980px;
-            margin: 0 auto;
-            padding: 45px;
-        }
-        @media (max-width: 767px) { body { padding: 15px; } }
-    </style>
+    <title>Meus-Projetos</title>
 </head>
-<body class="markdown-body">
-    <div id="content">Carregando portfólio...</div>
+<body>
+    <h1>Meus-Projetos</h1>
 
-    <script>
-        // Busca o seu README.md e renderiza na tela com estilo do GitHub
-        fetch('README.md')
-            .then(response => response.text())
-            .then(text => {
-                document.getElementById('content').innerHTML = marked.parse(text);
-            });
-    </script>
+    <p>Projeto desenvolvido para a atividade de implantação do PortfolioHUB.</p>
+
+    <h2>Ferramentas Utilizadas</h2>
+    <ul>
+        <li>Git</li>
+        <li>GitHub</li>
+        <li>Google Gemini</li>
+    </ul>
+
+    <h2>Repositório de Projetos</h2>
+    <p>
+        <a href="https://github.com/rafaelnicacio25/Meus-Projetos.git">
+            Acessar Repositório de Projetos
+        </a>
+    </p>
 </body>
 </html>
